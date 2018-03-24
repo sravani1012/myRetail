@@ -1,0 +1,13 @@
+#MongoDB Connection Properties
+
+mongo.uri: "localhost:27017"
+mongo.database: "myRetailDB"
+mongo.username: "user"
+mongo.password: "pass"
+mongo.host: "localhost"
+mongo.port: 2017
+
+#Product service params
+
+product.description.url: "https://redsky.target.com/v2/pdp/tcin"
+product.description.exclusion: "taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics"
